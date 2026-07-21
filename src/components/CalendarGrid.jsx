@@ -14,7 +14,7 @@ export default function CalendarGrid({
     <section className="calendar-paper">
       <header className="calendar-toolbar">
         <div>
-          <p className="eyebrow">Interactive Wall Calendar</p>
+          <p className="eyebrow">Wall Calendar</p>
           <h1>{monthLabel}</h1>
         </div>
         <div className="toolbar-buttons">

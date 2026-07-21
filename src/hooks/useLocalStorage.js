@@ -14,7 +14,6 @@ export function useLocalStorage(key, initialValue) {
     try {
       window.localStorage.setItem(key, JSON.stringify(value));
     } catch (error) {
-      // Ignore write failures and keep app functional.
     }
   }, [key, value]);
 
